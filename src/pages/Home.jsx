@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import HomeView from "src/sections/home";
 
 const Home = () => {
   return (
@@ -6,6 +7,7 @@ const Home = () => {
       <Helmet>
         <title> Home </title>
       </Helmet>
+      <HomeView />
     </>
   );
 };

@@ -5,3 +5,4 @@ export { default as Twitter } from "../Twitter";
 export { default as Linkedin } from "../Linkedin";
 export { default as WhiteLogoSmall } from "../WhiteLogoSmall";
 export { default as Telegram } from "../Telegram";
+export { default as QuoteIcon } from "../QuoteIcon";

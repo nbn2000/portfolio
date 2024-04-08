@@ -11,7 +11,7 @@
 
 * {
   padding: 0;
-  margin: 0.12rem;
+  margin: 0;
   box-sizing: border-box;
   font-family: "Fira Code", monospace;
   color: white;
@@ -53,7 +53,7 @@ body {
 /* Container */
 
 .container-x-axis {
-  width: 100%;
+  width: 98%;
   margin-right: auto;
   margin-left: auto;
 }

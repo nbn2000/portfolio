@@ -39,13 +39,13 @@ const Navbar = () => {
           </div>
         </button>
         <div
-          className={`w-[250px] md:static fixed right-0 p-5 z-50 transition-opacity duration-700 px-[16px] md:h-full bg-[rgba(40, 44, 51, 1)] md:opacity-100 md:block md:w-auto flex flex-col justify-start shadow-box md:shadow-none  ${
+          className={`w-[250px] md:static fixed right-0 p-5 z-50 bg-[rgba(40,44,51,1)] transition-opacity duration-700 px-[16px] md:h-full bg-[rgba(40, 44, 51, 1)] md:opacity-100 md:block md:w-auto flex flex-col justify-start shadow-box md:shadow-none  ${
             open ? "opacity-100" : "opacity-0"
           }`}
           id="navbar-dropdown"
         >
           <ul
-            className={`flex flex-col w-full md:flex-row gap-[15px] justify-end items-start md:justify-center md:items-center`}
+            className={`flex flex-col w-full md:flex-row gap-[32px] justify-end items-start md:justify-center md:items-center`}
           >
             {array.map((i, idx) => (
               <li key={idx}>
