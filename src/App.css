@@ -29,6 +29,10 @@ body {
   width: 7px;
 }
 
+.vertical-scroll::-webkit-scrollbar {
+  height: 5px;
+}
+
 ::-webkit-scrollbar-track {
   background-color: transparent;
 }

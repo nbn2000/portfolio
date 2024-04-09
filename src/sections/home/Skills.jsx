@@ -10,7 +10,7 @@ const Skills = () => {
           </span>
           skills
         </h3>
-        <div className="w-full lg:w-[511px] h-[1px] bg-[rgba(199,120,221,1)]" />
+        <div className="w-full lg:w-[280px] h-[1px] bg-[rgba(199,120,221,1)]" />
       </div>
       <div className="flex flex-col justify-center md:justify-between items-center gap-[59px] md:gap-[10px] w-full md:flex-row">
         <div className="w-full md:w-[34%]">

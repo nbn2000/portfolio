@@ -6,3 +6,5 @@ export { default as Linkedin } from "../Linkedin";
 export { default as WhiteLogoSmall } from "../WhiteLogoSmall";
 export { default as Telegram } from "../Telegram";
 export { default as QuoteIcon } from "../QuoteIcon";
+export { default as Whatsapp } from "../Whatsapp";
+export { default as Mail } from "../Mail";
