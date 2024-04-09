@@ -1,4 +1,3 @@
-export { default as NotFoundIcon } from "../NotFoundIcon";
 export { default as WhiteLogo } from "../WhiteLogo";
 export { default as Github } from "../Github";
 export { default as Twitter } from "../Twitter";

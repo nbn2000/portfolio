@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Mail, Whatsapp, Telegram } from "../../svg/view";
+import { Mail, Whatsapp, Telegram } from "src/svg/view";
 
 const Contacts = () => {
   return (

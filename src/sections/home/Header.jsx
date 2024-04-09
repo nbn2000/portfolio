@@ -1,21 +1,8 @@
 import { Link } from "react-router-dom";
-import { Github, Linkedin, Twitter } from "src/svg/view";
 
 const Header = () => {
   return (
     <header>
-      <div className="hidden absolute md:flex flex-col justify-center items-center gap-[8px] left-2 top-0 pointer-events-none md:pointer-events-auto">
-        <hr className="h-[191px] w-[1px] bg-grey text-grey" />
-        <Link>
-          <Github />
-        </Link>
-        <Link>
-          <Linkedin />
-        </Link>
-        <Link>
-          <Twitter />
-        </Link>
-      </div>
       <div className="container-x-axis container-y-axis flex flex-col md:flex-row justify-between items-center gap-[20px]">
         <div className="w-full md:w-[52%] flex flex-col justify-center md:justify-start items-center md:items-start gap-[32px]">
           <h1 className="*:font-[600] *:text-[32px] *:leading-[41.98px] text-center md:text-start">
@@ -44,10 +31,11 @@ const Header = () => {
           <div className="border-[rgba(171,178,191,1)]  border-solid  border-[1px] w-full max-w-full p-[8px] flex justify-center items-center gap-[10px]">
             <div className="w-[16px] min-w-[16px] h-[16px] bg-primary" />
             <h4 className="font-[500] text-[16px] leading-[20.99px] text-grey">
-              Currently working on{" "}
+              Currently{" "}
               <span className="font-[500] text-[16px] leading-[20.99px] text-white">
-                Portfolio
+                open{" "}
               </span>
+              for new job opportunities
             </h4>
           </div>
         </div>

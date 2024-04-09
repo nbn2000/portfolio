@@ -5,6 +5,7 @@ import {
   Linkedin,
   Twitter,
   Telegram,
+  Whatsapp,
 } from "src/svg/view";
 
 const Footer = () => {
@@ -38,6 +39,9 @@ const Footer = () => {
               </Link>
               <Link>
                 <Linkedin />
+              </Link>
+              <Link>
+                <Whatsapp />
               </Link>
               <Link>
                 <Twitter />
