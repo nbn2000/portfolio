@@ -1,3 +1,4 @@
+import AboutMe from "./AboutMe";
 import Header from "./Header";
 import Projects from "./Projects";
 import Quote from "./Quote";
@@ -10,6 +11,7 @@ const HomeView = () => {
       <Quote />
       <Projects />
       <Skills />
+      <AboutMe />
     </>
   );
 };

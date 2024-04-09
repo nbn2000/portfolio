@@ -49,7 +49,7 @@ const Footer = () => {
           </div>
         </div>
         <span className="font-[400] text-[16px] leading-[20.99px] text-grey">
-          © Copyright 2022. Made by Nodirbek
+          © Copyright 2024. Made by Nodirbek
         </span>
       </div>
     </footer>
