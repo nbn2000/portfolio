@@ -1,4 +1,5 @@
 import { QuoteIcon } from "src/svg/view";
+
 const Quote = () => {
   return (
     <div className="relative  container-y-axis">
