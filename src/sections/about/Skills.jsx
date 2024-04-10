@@ -1,4 +1,4 @@
-import SkillContainer from "src/components/navbar/SkillContainer";
+import SkillContainer from "src/components/SkillContainer";
 
 const Skills = () => {
   return (

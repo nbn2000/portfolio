@@ -1,4 +1,4 @@
-import Cards from "src/components/navbar/Cards";
+import Cards from "src/components/Cards";
 import Caramella from "/public/caramella.png";
 
 const Complete = () => {

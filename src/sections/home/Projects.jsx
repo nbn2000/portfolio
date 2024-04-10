@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Caramella from "/public/caramella.png";
-import Cards from "src/components/navbar/Cards";
+import Cards from "src/components/Cards";
 
 const Projects = () => {
   return (
