@@ -6,6 +6,7 @@ import {
   Twitter,
   Telegram,
   Whatsapp,
+  Hashnode,
 } from "src/svg/view";
 
 const Footer = () => {
@@ -48,6 +49,9 @@ const Footer = () => {
               </Link>
               <Link>
                 <Telegram />
+              </Link>
+              <Link>
+                <Hashnode />
               </Link>
             </div>
           </div>
