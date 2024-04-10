@@ -32,6 +32,7 @@ const RootLayout = Loadable(lazy(() => import("./Layouts/RootLayout")));
 const Home = Loadable(lazy(() => import("./pages/Home")));
 const Works = Loadable(lazy(() => import("./pages/Works")));
 const About = Loadable(lazy(() => import("./pages/About")));
+const Contacts = Loadable(lazy(() => import("./pages/Contacts")));
 const NotFound = Loadable(lazy(() => import("./pages/NotFound")));
 
 function App() {
@@ -39,8 +40,9 @@ function App() {
     createRoutesFromElements(
       <Route path="/" element={<RootLayout />}>
         <Route index path="/" element={<Home />} />
-        <Route index path="/works" element={<Works />} />
-        <Route index path="/about" element={<About />} />
+        <Route path="/works" element={<Works />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contacts" element={<Contacts />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     )
