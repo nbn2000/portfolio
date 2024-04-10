@@ -62,7 +62,7 @@ const Navbar = () => {
             >
               {array.map((i, idx) => (
                 <li key={idx}>
-                  <Link href={i.link}>
+                  <Link to={i.link}>
                     <span className="font-[400] text-[16px] text-primary leading-[20.99px]">
                       #
                     </span>
@@ -100,7 +100,7 @@ const Navbar = () => {
 const array = [
   { link: "/", name: "home" },
   { link: "/works", name: "works" },
-  { link: "/about-me", name: "about-me" },
+  { link: "/about", name: "about-me" },
   { link: "/contacts", name: "contacts" },
 ];
 

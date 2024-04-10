@@ -31,6 +31,7 @@ const Loadable = (Component) => {
 const RootLayout = Loadable(lazy(() => import("./Layouts/RootLayout")));
 const Home = Loadable(lazy(() => import("./pages/Home")));
 const Works = Loadable(lazy(() => import("./pages/Works")));
+const About = Loadable(lazy(() => import("./pages/About")));
 const NotFound = Loadable(lazy(() => import("./pages/NotFound")));
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
       <Route path="/" element={<RootLayout />}>
         <Route index path="/" element={<Home />} />
         <Route index path="/works" element={<Works />} />
+        <Route index path="/about" element={<About />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     )
