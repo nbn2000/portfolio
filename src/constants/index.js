@@ -4,6 +4,7 @@ import Misto from "/Misto.png";
 import HomeRealEstate from "/home-real-estate.png";
 import Avtobozor from "/avtobozor.png";
 import Merrymed from "/merrymed.png";
+import UdemyClone from "/udemy-clone.png";
 
 export const homeProjects = [
   {
@@ -79,6 +80,14 @@ export const inCompleteProjects = [
     name: "Avtobozor",
     desc: "Avtobozor: Ecommerce website which specialized to sell cars its a collaborative project which is in the process of complete",
     live: "https://avtobazar-sl.vercel.app/",
+  },
+  {
+    img: UdemyClone,
+    techs: ["React", "CSS"],
+    name: "Udemy Clone",
+    desc: "Udemy Clone: Its a clone of old version udemy website which has several pages but it is static to showcase my front-end development skills",
+    live: "https://udemy-clone-eight-gamma.vercel.app/",
+    code: "https://github.com/nbn2000/udemy-clone",
   },
 ];
 
