@@ -6,7 +6,7 @@ const Contacts = () => {
     <div className="w-full relative">
       <div className="absolute lg:block hidden -left-[10px] top-[25%]">
         <img
-          src="/public/left-square.png"
+          src="/left-square.png"
           alt="ten dots"
           className="w-full object-contain"
         />

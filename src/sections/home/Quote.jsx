@@ -22,7 +22,7 @@ const Quote = () => {
         </div>
       </div>
       <div className="absolute right-0 top-1/2 -translate-y-1/2 hidden lg:block">
-        <img src="/public/square.png" alt="square shape" />
+        <img src="/square.png" alt="square shape" />
       </div>
     </div>
   );

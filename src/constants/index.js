@@ -81,3 +81,49 @@ export const inCompleteProjects = [
     live: "https://avtobazar-sl.vercel.app/",
   },
 ];
+
+export const skills = [
+  {
+    header: "Languages",
+    body: ["TypeScript,", "JavaScript"],
+  },
+  {
+    header: "Databases",
+    body: ["MongoDB,", "Firebase,", "MySQL"],
+  },
+  {
+    header: "Tools",
+    body: [
+      "VSCode,",
+      "WebStorm,",
+      "Kali Linux,",
+      "Windows,",
+      "Figma,",
+      "Git,",
+      "Github,",
+      "GitLab,",
+      "Jira,",
+    ],
+  },
+  {
+    header: "Frameworks",
+    body: ["Tailwind CSS,", "Expressjs,", "Nextjs,", "Bootstrap"],
+  },
+  {
+    header: "Libraries",
+    body: [
+      "React,",
+      "RTK Query,",
+      "Redux,",
+      "MaterialUI,",
+      "Styled Components,",
+      "Emotion,",
+      "NPM,",
+      "Tailwind Styled Components...",
+    ],
+  },
+  {
+    header: "Other",
+    body: ["HTML,", "CSS,", "SCSS,", "REST"],
+  },
+];

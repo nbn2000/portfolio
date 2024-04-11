@@ -8,3 +8,4 @@ export { default as QuoteIcon } from "../QuoteIcon";
 export { default as Whatsapp } from "../Whatsapp";
 export { default as Mail } from "../Mail";
 export { default as Hashnode } from "../Hashnode";
+export { default as Loading } from "../Loading";

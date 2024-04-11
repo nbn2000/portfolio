@@ -5,7 +5,7 @@ const FunFacts = () => {
     <div className="w-full relative">
       <div className="absolute left-0 top-1/2 xl:block hidden">
         <img
-          src="/public/left-square.png"
+          src="/left-square.png"
           alt="big square"
           className="w-full object-contain rotate-180"
         />
@@ -32,7 +32,7 @@ const FunFacts = () => {
           </div>
           <div className="hidden md:w-[17%] md:block">
             <img
-              src="/public/small-rectangles.png"
+              src="/small-rectangles.png"
               alt="small rectangles"
               className="w-full object-contain"
             />
@@ -41,7 +41,7 @@ const FunFacts = () => {
       </div>
       <div className="absolute right-0 top-[70%] xl:block hidden">
         <img
-          src="/public/twenty-dots.png"
+          src="/twenty-dots.png"
           alt="big square"
           className="w-full object-contain rotate-180"
         />

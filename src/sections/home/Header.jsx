@@ -26,7 +26,7 @@ const Header = () => {
         <div className="md:w-[45%] w-full ">
           <div className="w-full">
             <img
-              src="/public/man.png"
+              src="/man.png"
               alt="man sitting"
               className="max-w-[469px] w-full "
             />

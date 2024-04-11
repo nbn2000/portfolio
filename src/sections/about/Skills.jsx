@@ -20,7 +20,7 @@ const Skills = () => {
       </div>
       <div className="absolute right-0 top-0 xl:block hidden">
         <img
-          src="/public/fifteen-dots.png"
+          src="/fifteen-dots.png"
           alt="big square"
           className="w-full object-contain rotate-180"
         />

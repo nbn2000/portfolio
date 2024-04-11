@@ -3,7 +3,7 @@ const WhoIam = () => {
     <div className="w-full relative">
       <div className="absolute lg:block hidden left-[1%] top-[55%]">
         <img
-          src="/public/twelve-dots.png"
+          src="/twelve-dots.png"
           alt="ten dots"
           className="w-full object-contain"
         />
@@ -32,7 +32,7 @@ const WhoIam = () => {
         </div>
         <div className="w-full md:w-[33%] p-6 md:p-0">
           <img
-            src="/public/man-about-me.png"
+            src="/man-about-me.png"
             alt="man with hoodie"
             className="w-full object-contain"
           />
@@ -40,7 +40,7 @@ const WhoIam = () => {
       </div>
       <div className="absolute right-0 top-[30%] xl:block hidden">
         <img
-          src="/public/big-square.png"
+          src="/big-square.png"
           alt="big square"
           className="w-full object-contain"
         />

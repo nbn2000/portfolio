@@ -1,4 +1,5 @@
 import SkillContainer from "src/components/SkillContainer";
+import { skills } from "src/constants";
 
 const Skills = () => {
   return (
@@ -15,13 +16,13 @@ const Skills = () => {
       <div className="flex flex-col justify-center md:justify-between items-center gap-[59px] md:gap-[10px] w-full md:flex-row">
         <div className="w-full md:w-[34%]">
           <img
-            src="/public/group-rectangles.png"
+            src="/group-rectangles.png"
             alt="group of rectangles"
             className="w-full object-contain"
           />
         </div>
         <div className="w-full md:w-[57%] flex flex-row flex-wrap justify-center md:justify-end items-center md:items-start gap-[16px]">
-          {array.map((i, idx) => (
+          {skills.map((i, idx) => (
             <SkillContainer header={i.header} body={i.body} key={idx} />
           ))}
         </div>
@@ -29,51 +30,5 @@ const Skills = () => {
     </div>
   );
 };
-
-const array = [
-  {
-    header: "Languages",
-    body: ["TypeScript,", "JavaScript"],
-  },
-  {
-    header: "Databases",
-    body: ["MongoDB,", "Firebase,", "MySQL"],
-  },
-  {
-    header: "Tools",
-    body: [
-      "VSCode,",
-      "WebStorm,",
-      "Kali Linux,",
-      "Windows,",
-      "Figma,",
-      "Git,",
-      "Github,",
-      "GitLab,",
-      "Jira,",
-    ],
-  },
-  {
-    header: "Frameworks",
-    body: ["Tailwind CSS,", "Expressjs,", "Nextjs,", "Bootstrap"],
-  },
-  {
-    header: "Libraries",
-    body: [
-      "React,",
-      "RTK Query,",
-      "Redux,",
-      "MaterialUI,",
-      "Styled Components,",
-      "Emotion,",
-      "NPM,",
-      "Tailwind Styled Components...",
-    ],
-  },
-  {
-    header: "Other",
-    body: ["HTML,", "CSS,", "SCSS,", "REST"],
-  },
-];
 
 export default Skills;

@@ -24,7 +24,7 @@ const Contactsection = () => {
       </div>
       <div className="absolute right-0 top-[60%] xl:block hidden">
         <img
-          src="/public/big-square.png"
+          src="/big-square.png"
           alt="big square"
           className="w-full object-contain"
         />

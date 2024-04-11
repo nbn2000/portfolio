@@ -14,7 +14,7 @@ const Media = () => {
     <div className="w-full relative">
       <div className="absolute left-0 top-0 xl:block hidden">
         <img
-          src="/public/twelve-dots.png"
+          src="/twelve-dots.png"
           alt="big square"
           className="w-full object-contain rotate-180"
         />

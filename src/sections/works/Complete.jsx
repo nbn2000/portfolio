@@ -6,7 +6,7 @@ const Complete = () => {
     <div className="w-full relative">
       <div className="absolute md:block hidden left-2 top-[40%]">
         <img
-          src="/public/twelve-dots.png"
+          src="/twelve-dots.png"
           alt="ten dots"
           className="w-full object-contain"
         />
@@ -26,7 +26,7 @@ const Complete = () => {
       </div>
       <div className="absolute right-0 top-[15%] xl:block hidden">
         <img
-          src="/public/big-square.png"
+          src="/big-square.png"
           alt="big square"
           className="w-full object-contain"
         />

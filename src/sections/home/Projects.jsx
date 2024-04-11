@@ -7,7 +7,7 @@ const Projects = () => {
     <div className="w-full relative">
       <div className="absolute md:block hidden -left-[10px] top-[20%]">
         <img
-          src="/public/ten-dots.png"
+          src="/ten-dots.png"
           alt="ten dots"
           className="w-full object-contain"
         />
@@ -31,7 +31,7 @@ const Projects = () => {
       </div>
       <div className="absolute right-0 top-[60%] xl:block hidden">
         <img
-          src="/public/big-square.png"
+          src="/big-square.png"
           alt="big square"
           className="w-full object-contain"
         />

@@ -6,13 +6,14 @@ import {
   createRoutesFromElements,
 } from "react-router-dom";
 import { Suspense, lazy } from "react";
+import { Loading } from "./svg/view";
 
 const Loadable = (Component) => {
   const WrappedComponent = (props) => (
     <Suspense
       fallback={
         <div className="h-screen w-full flex justify-center items-center">
-          Loading...
+          <Loading />
         </div>
       }
     >

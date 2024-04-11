@@ -5,7 +5,7 @@ const AboutMe = () => {
     <div className="w-full relative">
       <div className="absolute lg:block hidden -left-[10px] top-[25%]">
         <img
-          src="/public/left-square.png"
+          src="/left-square.png"
           alt="ten dots"
           className="w-full object-contain"
         />
@@ -50,7 +50,7 @@ const AboutMe = () => {
           </div>
           <div className="w-full md:w-[33%] p-6 md:p-0">
             <img
-              src="/public/man-about-me.png"
+              src="/man-about-me.png"
               alt="man with hoodie"
               className="w-full object-contain"
             />
@@ -59,7 +59,7 @@ const AboutMe = () => {
       </div>
       <div className="absolute right-0 top-[60%] xl:block hidden">
         <img
-          src="/public/twenty-dots.png"
+          src="/twenty-dots.png"
           alt="big square"
           className="w-full object-contain"
         />

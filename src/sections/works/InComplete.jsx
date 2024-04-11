@@ -6,14 +6,14 @@ const InComplete = () => {
     <div className="w-full relative">
       <div className="absolute md:block hidden left-0 top-[2%]">
         <img
-          src="/public/left-square.png"
+          src="/left-square.png"
           alt="ten dots"
           className="w-full object-contain"
         />
       </div>
       <div className="absolute md:block hidden left-0 top-[40%]">
         <img
-          src="/public/fifteen-dots.png"
+          src="/fifteen-dots.png"
           alt="ten dots"
           className="w-full object-contain"
         />
@@ -33,7 +33,7 @@ const InComplete = () => {
       </div>
       <div className="absolute right-0 top-[15%] xl:block hidden">
         <img
-          src="/public/twenty-dots.png"
+          src="/twenty-dots.png"
           alt="big square"
           className="w-full object-contain"
         />
