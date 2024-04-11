@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import Caramella from "/public/caramella.png";
 import Cards from "src/components/Cards";
+import { homeProjects } from "src/constants";
 
 const Projects = () => {
   return (
@@ -27,7 +27,7 @@ const Projects = () => {
             View all ~~&gt;
           </Link>
         </div>
-        <Cards array={array} />
+        <Cards array={homeProjects} />
       </div>
       <div className="absolute right-0 top-[60%] xl:block hidden">
         <img
@@ -39,32 +39,5 @@ const Projects = () => {
     </div>
   );
 };
-
-const array = [
-  {
-    img: Caramella,
-    techs: ["HTML", "Tailwind", "Nextjs"],
-    name: "Caramella",
-    desc: "Caramella: An ecommerce platform specializing in delectable pastries. Seamlessly integrated with Telegram for registration and online orders. Includes an intuitive admin panel for easy management.",
-    live: "https://caramella-eng.vercel.app/",
-    code: "https://github.com/nbn2000/caramella",
-  },
-  {
-    img: Caramella,
-    techs: ["HTML", "Tailwind", "Nextjs"],
-    name: "Caramella",
-    desc: "Caramella: An ecommercesssssss sssssssss ssssssssssssssssss ssssssssssssssssss platform specializing in delectable pastries. Seamlessly integrated with Telegram for registration and online orders. Includes an intuitive admin panel for easy management.",
-    live: "https://caramella-eng.vercel.app/",
-    code: "https://github.com/nbn2000/caramella",
-  },
-  {
-    img: Caramella,
-    techs: ["HTML", "Tailwind", "Nextjs"],
-    name: "Caramella",
-    desc: "Caramella: An ecommerce platform specializing in delectable pastries. Seamlessly integrated with Telegram for registration and online orders. Includes an intuitive admin panel for easy management.",
-    live: "https://caramella-eng.vercel.app/",
-    code: "https://github.com/nbn2000/caramella",
-  },
-];
 
 export default Projects;

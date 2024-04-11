@@ -15,7 +15,10 @@ const Header = () => {
             <span className="font-[400] text-[16px] leading-[25px] text-grey text-center md:text-start">
               He crafts responsive websites where technologies meet creativity
             </span>
-            <Link className="px-[16px] py-[8px] text-[16px] font-[500] leading-[20.99px] border-solid border-[1px] border-[rgba(199,120,221,1)]">
+            <Link
+              to="/contacts"
+              className="px-[16px] py-[8px] text-[16px] font-[500] leading-[20.99px] border-solid border-[1px] border-[rgba(199,120,221,1)]"
+            >
               Contact me!!
             </Link>
           </div>

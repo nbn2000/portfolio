@@ -41,7 +41,10 @@ const AboutMe = () => {
               grow. If you have a good opportunity that matches my skills and
               experience then don’t hesitate to contact me.
             </p>
-            <Link className="font-[500] text-[16px] leading-[20.99px] border-solid border-[1px] border-[rgba(199,120,221,1)] px-[16px] py-[8px]">
+            <Link
+              to="/about"
+              className="font-[500] text-[16px] leading-[20.99px] border-solid border-[1px] border-[rgba(199,120,221,1)] px-[16px] py-[8px]"
+            >
               Read more -&gt;
             </Link>
           </div>

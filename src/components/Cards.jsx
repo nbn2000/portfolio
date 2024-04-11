@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Cards = ({ array }) => {
   return (
-    <div className="grid grid-cols-1 gap-[16px] w-full place-items-center justify-between sm:grid-cols-2 lg:grid-cols-3">
+    <div className="grid grid-cols-1 gap-[16px] w-full place-items-start justify-between sm:grid-cols-2 lg:grid-cols-3">
       {array.map((i, idx) => (
         <div key={idx} className="max-w-[330px] w-full">
           <div className="h-[150px] w-full border-solid border-[rgba(171,178,191,1)] border-[1px]">
@@ -24,7 +24,7 @@ const Cards = ({ array }) => {
                 </span>
               ))}
             </div>
-            <div className="p-[16px] flex flex-col justify-between items-start h-[280px] gap-[16px] border-solid border-[rgba(171,178,191,1)] border-[1px]">
+            <div className="p-[16px] flex flex-col justify-between items-start gap-[16px] border-solid border-[rgba(171,178,191,1)] border-[1px]">
               <span className="font-[500] text-[24px] leading-[31.49px]">
                 {i.name}
               </span>
@@ -36,6 +36,7 @@ const Cards = ({ array }) => {
                   <Link
                     className="px-[16px] py-[8px] border-[1px] border-solid border-[rgba(199,120,221,1)] font-[500] text-[16px] leading-[20.99px]"
                     to={i.live}
+                    target="_blank"
                   >
                     {"Live <~>"}
                   </Link>
@@ -43,6 +44,7 @@ const Cards = ({ array }) => {
                 {i.code && (
                   <Link
                     to={i.code}
+                    target="_blank"
                     className="px-[16px] py-[8px] border-[1px] border-solid border-[rgba(171,178,191,1)] font-[500] text-[16px] leading-[20.99px]"
                   >{`Cached >=`}</Link>
                 )}

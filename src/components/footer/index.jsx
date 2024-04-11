@@ -35,22 +35,22 @@ const Footer = () => {
               Media
             </span>
             <div className="flex flex-row justify-center items-center gap-[8px]">
-              <Link>
+              <Link to="https://github.com/nbn2000">
                 <Github />
               </Link>
-              <Link>
+              <Link to="https://www.linkedin.com/in/nodirbek-makhmudov/">
                 <Linkedin />
               </Link>
-              <Link>
+              <Link to="https://wa.me/998993764744">
                 <Whatsapp />
               </Link>
-              <Link>
+              <Link to="https://twitter.com/Nodirbe77981460">
                 <Twitter />
               </Link>
-              <Link>
+              <Link to="https://t.me/Nodirbek4744">
                 <Telegram />
               </Link>
-              <Link>
+              <Link to="https://nodibek-makhmudov.hashnode.dev/">
                 <Hashnode />
               </Link>
             </div>

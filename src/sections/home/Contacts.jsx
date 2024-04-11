@@ -31,19 +31,28 @@ const Contacts = () => {
               Message me here
             </span>
             <div className="flex whitespace-nowrap flex-col justify-start items-start gap-[8px]">
-              <Link className="flex flex-row justify-center items-center gap-[5px]">
+              <Link
+                to="mailto:makhmudov.work4744@inbox.ru"
+                className="flex flex-row justify-center items-center gap-[5px]"
+              >
                 <Mail />
                 <span className="font-[400] text-[16px] leading-[20.99px] text-grey">
                   makhmudov.work4744@inbox.ru
                 </span>
               </Link>
-              <Link className="flex flex-row justify-center items-center gap-[5px]">
+              <Link
+                to="https://t.me/Nodirbek4744"
+                className="flex flex-row justify-center items-center gap-[5px]"
+              >
                 <Telegram />
                 <span className="font-[400] text-[16px] leading-[20.99px] text-grey">
                   @nodirbek4744
                 </span>
               </Link>
-              <Link className="flex flex-row justify-center items-center gap-[5px]">
+              <Link
+                to="https://wa.me/998993764744"
+                className="flex flex-row justify-center items-center gap-[5px]"
+              >
                 <Whatsapp />
                 <span className="font-[400] text-[16px] leading-[20.99px] text-grey ">
                   Nodirbek

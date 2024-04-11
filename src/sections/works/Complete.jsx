@@ -1,5 +1,5 @@
 import Cards from "src/components/Cards";
-import Caramella from "/public/caramella.png";
+import { completeProjects } from "src/constants";
 
 const Complete = () => {
   return (
@@ -22,7 +22,7 @@ const Complete = () => {
             </h3>
           </div>
         </div>
-        <Cards array={array} />
+        <Cards array={completeProjects} />
       </div>
       <div className="absolute right-0 top-[15%] xl:block hidden">
         <img
@@ -34,48 +34,5 @@ const Complete = () => {
     </div>
   );
 };
-
-const array = [
-  {
-    img: Caramella,
-    techs: ["HTML", "Tailwind", "Nextjs"],
-    name: "Caramella",
-    desc: "Caramella: An ecommerce platform specializing in delectable pastries. Seamlessly integrated with Telegram for registration and online orders. Includes an intuitive admin panel for easy management.",
-    live: "https://caramella-eng.vercel.app/",
-    code: "https://github.com/nbn2000/caramella",
-  },
-  {
-    img: Caramella,
-    techs: ["HTML", "Tailwind", "Nextjs"],
-    name: "Caramella",
-    desc: "Caramella: An ecommercesssssss sssssssss ssssssssssssssssss ssssssssssssssssss platform specializing in delectable pastries. Seamlessly integrated with Telegram for registration and online orders. Includes an intuitive admin panel for easy management.",
-    live: "https://caramella-eng.vercel.app/",
-    code: "https://github.com/nbn2000/caramella",
-  },
-  {
-    img: Caramella,
-    techs: ["HTML", "Tailwind", "Nextjs"],
-    name: "Caramella",
-    desc: "Caramella: An ecommerce platform specializing in delectable pastries. Seamlessly integrated with Telegram for registration and online orders. Includes an intuitive admin panel for easy management.",
-    live: "https://caramella-eng.vercel.app/",
-    code: "https://github.com/nbn2000/caramella",
-  },
-  {
-    img: Caramella,
-    techs: ["HTML", "Tailwind", "Nextjs"],
-    name: "Caramella",
-    desc: "Caramella: An ecommerce platform specializing in delectable pastries. Seamlessly integrated with Telegram for registration and online orders. Includes an intuitive admin panel for easy management.",
-    live: "https://caramella-eng.vercel.app/",
-    code: "https://github.com/nbn2000/caramella",
-  },
-  {
-    img: Caramella,
-    techs: ["HTML", "Tailwind", "Nextjs"],
-    name: "Caramella",
-    desc: "Caramella: An ecommerce platform specializing in delectable pastries. Seamlessly integrated with Telegram for registration and online orders. Includes an intuitive admin panel for easy management.",
-    live: "https://caramella-eng.vercel.app/",
-    code: "https://github.com/nbn2000/caramella",
-  },
-];
 
 export default Complete;

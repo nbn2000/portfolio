@@ -8,13 +8,13 @@ const Navbar = () => {
     <div className="relative">
       <div className="hidden absolute md:flex flex-col justify-center items-center gap-[8px] left-2 top-0 pointer-events-none md:pointer-events-auto">
         <hr className="h-[191px] w-[1px] bg-grey text-grey" />
-        <Link>
+        <Link to="https://github.com/nbn2000">
           <Github />
         </Link>
-        <Link>
+        <Link to="https://www.linkedin.com/in/nodirbek-makhmudov/">
           <Linkedin />
         </Link>
-        <Link>
+        <Link to="https://twitter.com/Nodirbe77981460">
           <Twitter />
         </Link>
       </div>
@@ -80,13 +80,13 @@ const Navbar = () => {
               ))}
             </ul>
             <div className="w-full md:hidden flex flex-row justify-center items-center gap-[8px] h-[64px]">
-              <Link>
+              <Link to="https://github.com/nbn2000">
                 <Github />
               </Link>
-              <Link>
+              <Link to="https://www.linkedin.com/in/nodirbek-makhmudov/">
                 <Linkedin />
               </Link>
-              <Link>
+              <Link to="https://twitter.com/Nodirbe77981460">
                 <Twitter />
               </Link>
             </div>

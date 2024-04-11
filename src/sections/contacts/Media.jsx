@@ -29,43 +29,64 @@ const Media = () => {
           </h3>
         </div>
         <div className="w-full flex flex-row flex-wrap justify-start items-center gap-[16px]">
-          <Link className="flex flex-row justify-center items-center gap-[5px]">
+          <Link
+            to="https://nodibek-makhmudov.hashnode.dev/"
+            className="flex flex-row justify-center items-center gap-[5px]"
+          >
             <Hashnode />
             <span className="font-[400] text-[16px] leading-[20.99px] text-grey">
               nodibek-makhmudov.hashnode.dev
             </span>
           </Link>
-          <Link className="flex flex-row justify-center items-center gap-[5px]">
+          <Link
+            to="mailto:makhmudov.work4744@inbox.ru"
+            className="flex flex-row justify-center items-center gap-[5px]"
+          >
             <Mail />
             <span className="font-[400] text-[16px] leading-[20.99px] text-grey">
               makhmudov.work4744@inbox.ru
             </span>
           </Link>
-          <Link className="flex flex-row justify-center items-center gap-[5px]">
+          <Link
+            to="https://github.com/nbn2000"
+            className="flex flex-row justify-center items-center gap-[5px]"
+          >
             <Github />
             <span className="font-[400] text-[16px] leading-[20.99px] text-grey">
               nbn2000
             </span>
           </Link>
-          <Link className="flex flex-row justify-center items-center gap-[5px]">
+          <Link
+            to="https://www.linkedin.com/in/nodirbek-makhmudov/"
+            className="flex flex-row justify-center items-center gap-[5px]"
+          >
             <Linkedin />
             <span className="font-[400] text-[16px] leading-[20.99px] text-grey">
               in/nodirbek-makhmudov
             </span>
           </Link>
-          <Link className="flex flex-row justify-center items-center gap-[5px]">
+          <Link
+            to="https://t.me/Nodirbek4744"
+            className="flex flex-row justify-center items-center gap-[5px]"
+          >
             <Telegram />
             <span className="font-[400] text-[16px] leading-[20.99px] text-grey">
               @nodirbek4744
             </span>
           </Link>
-          <Link className="flex flex-row justify-center items-center gap-[5px]">
+          <Link
+            to="https://wa.me/998993764744"
+            className="flex flex-row justify-center items-center gap-[5px]"
+          >
             <Whatsapp />
             <span className="font-[400] text-[16px] leading-[20.99px] text-grey">
               Nodirbek
             </span>
           </Link>
-          <Link className="flex flex-row justify-center items-center gap-[5px]">
+          <Link
+            to="https://twitter.com/Nodirbe77981460"
+            className="flex flex-row justify-center items-center gap-[5px]"
+          >
             <Twitter />
             <span className="font-[400] text-[16px] leading-[20.99px] text-grey">
               @Nodirbe77981460
