@@ -5,6 +5,7 @@ import HomeRealEstate from "/home-real-estate.png";
 import Avtobozor from "/avtobozor.png";
 import Merrymed from "/merrymed.png";
 import UdemyClone from "/udemy-clone.png";
+import ChatApp from "/chat-app.png";
 
 export const homeProjects = [
   {
@@ -35,7 +36,17 @@ export const homeProjects = [
 export const completeProjects = [
   {
     img: Caramella,
-    techs: ["HTML", "Tailwind", "Nextjs"],
+    techs: [
+      "HTML",
+      "Tailwind",
+      "Nextjs",
+      "Vite",
+      "React",
+      "Telegram bot api",
+      "WebHook",
+      "MUI",
+      "TypeScript",
+    ],
     name: "Caramella",
     desc: "Caramella: An ecommerce platform specializing in delectable pastries. Seamlessly integrated with Telegram for registration and online orders. Includes an intuitive admin panel for easy management.",
     live: "https://caramella-eng.vercel.app/",
@@ -88,6 +99,14 @@ export const inCompleteProjects = [
     desc: "Udemy Clone: Its a clone of old version udemy website which has several pages but it is static to showcase my front-end development skills",
     live: "https://udemy-clone-eight-gamma.vercel.app/",
     code: "https://github.com/nbn2000/udemy-clone",
+  },
+  {
+    img: ChatApp,
+    techs: ["React", "CSS", "Expressjs", "MongoDB"],
+    name: "Chat App",
+    desc: "Chat App: It is one my first full stack website which I focused more to functionality",
+    live: "https://chat-app-front-end-chi.vercel.app/",
+    code: "https://github.com/nbn2000/chat-app-front-end",
   },
 ];
 
