@@ -31,64 +31,65 @@ const Media = () => {
         <div className="w-full flex flex-row flex-wrap justify-start items-center gap-[16px]">
           <Link
             to="https://nodibek-makhmudov.hashnode.dev/"
-            className="flex flex-row justify-center items-center gap-[5px]"
+            className="flex flex-row justify-center items-center gap-[5px] group"
           >
-            <Hashnode />
-            <span className="font-[400] text-[16px] leading-[20.99px] text-grey">
+            <Hashnode className="*:fill-[#ABB2BF] group-hover:*:fill-white" />
+            <span className="font-[400] text-[16px] leading-[20.99px] text-grey group-hover:text-white">
               nodibek-makhmudov.hashnode.dev
             </span>
           </Link>
           <Link
             to="mailto:makhmudov.work4744@inbox.ru"
-            className="flex flex-row justify-center items-center gap-[5px]"
+            className="flex flex-row justify-center items-center gap-[5px] group"
           >
-            <Mail />
-            <span className="font-[400] text-[16px] leading-[20.99px] text-grey">
+            <Mail className="*:fill-[#ABB2BF] group-hover:*:fill-white" />
+            <span className="font-[400] text-[16px] leading-[20.99px] text-grey group-hover:text-white">
               makhmudov.work4744@inbox.ru
             </span>
           </Link>
           <Link
             to="https://github.com/nbn2000"
-            className="flex flex-row justify-center items-center gap-[5px]"
+            className="flex flex-row justify-center items-center gap-[5px] group"
           >
-            <Github />
-            <span className="font-[400] text-[16px] leading-[20.99px] text-grey">
+            <Github className="*:fill-[#ABB2BF] group-hover:*:fill-white" />
+            <span className="font-[400] text-[16px] leading-[20.99px] text-grey group-hover:text-white">
               nbn2000
             </span>
           </Link>
           <Link
             to="https://www.linkedin.com/in/nodirbek-makhmudov/"
-            className="flex flex-row justify-center items-center gap-[5px]"
+            className="flex flex-row justify-center items-center gap-[5px] group"
           >
-            <Linkedin />
-            <span className="font-[400] text-[16px] leading-[20.99px] text-grey">
+            <Linkedin className="*:fill-[#ABB2BF] group-hover:*:fill-white" />
+            <span className="font-[400] text-[16px] leading-[20.99px] text-grey group-hover:text-white">
               in/nodirbek-makhmudov
             </span>
           </Link>
           <Link
             to="https://t.me/Nodirbek4744"
-            className="flex flex-row justify-center items-center gap-[5px]"
+            className="flex flex-row justify-center items-center gap-[5px] group"
+            target="_blank"
           >
-            <Telegram />
-            <span className="font-[400] text-[16px] leading-[20.99px] text-grey">
+            <Telegram className="*:fill-[#ABB2BF] group-hover:*:fill-white" />
+            <span className="font-[400] text-[16px] leading-[20.99px] text-grey group-hover:text-white">
               @nodirbek4744
             </span>
           </Link>
           <Link
             to="https://wa.me/998993764744"
-            className="flex flex-row justify-center items-center gap-[5px]"
+            className="flex flex-row justify-center items-center gap-[5px] group"
           >
-            <Whatsapp />
-            <span className="font-[400] text-[16px] leading-[20.99px] text-grey">
+            <Whatsapp className="*:fill-[#ABB2BF] group-hover:*:fill-white" />
+            <span className="font-[400] text-[16px] leading-[20.99px] text-grey group-hover:text-white">
               Nodirbek
             </span>
           </Link>
           <Link
             to="https://twitter.com/Nodirbe77981460"
-            className="flex flex-row justify-center items-center gap-[5px]"
+            className="flex flex-row justify-center items-center gap-[5px] group"
           >
-            <Twitter />
-            <span className="font-[400] text-[16px] leading-[20.99px] text-grey">
+            <Twitter className="*:fill-[#ABB2BF] group-hover:*:fill-white" />
+            <span className="font-[400] text-[16px] leading-[20.99px] text-grey group-hover:text-white">
               @Nodirbe77981460
             </span>
           </Link>

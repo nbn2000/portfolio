@@ -45,8 +45,18 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #2525253a;
 }
-.a {
-  font-size: 10px;
+
+button:hover,
+a:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+
+button:active,
+a:active {
+  transform: scale(0.98);
+  transition: transform 0.2s ease-in-out;
 }
 
 .shadow-box {

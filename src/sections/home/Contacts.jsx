@@ -33,28 +33,31 @@ const Contacts = () => {
             <div className="flex whitespace-nowrap flex-col justify-start items-start gap-[8px]">
               <Link
                 to="mailto:makhmudov.work4744@inbox.ru"
-                className="flex flex-row justify-center items-center gap-[5px]"
+                className="flex flex-row justify-center items-center gap-[5px] group"
+                target="_blank"
               >
-                <Mail />
-                <span className="font-[400] text-[16px] leading-[20.99px] text-grey">
+                <Mail className="*:fill-[#ABB2BF] group-hover:*:fill-white" />
+                <span className="font-[400] text-[16px] leading-[20.99px] text-grey group-hover:text-white">
                   makhmudov.work4744@inbox.ru
                 </span>
               </Link>
               <Link
                 to="https://t.me/Nodirbek4744"
-                className="flex flex-row justify-center items-center gap-[5px]"
+                className="flex flex-row justify-center items-center gap-[5px] group"
+                target="_blank"
               >
-                <Telegram />
-                <span className="font-[400] text-[16px] leading-[20.99px] text-grey">
+                <Telegram className="*:fill-[#ABB2BF] group-hover:*:fill-white" />
+                <span className="font-[400] text-[16px] leading-[20.99px] text-grey group-hover:text-white">
                   @nodirbek4744
                 </span>
               </Link>
               <Link
                 to="https://wa.me/998993764744"
-                className="flex flex-row justify-center items-center gap-[5px]"
+                className="flex flex-row justify-center items-center gap-[5px] group"
+                target="_blank"
               >
-                <Whatsapp />
-                <span className="font-[400] text-[16px] leading-[20.99px] text-grey ">
+                <Whatsapp className="*:fill-[#ABB2BF] group-hover:*:fill-white" />
+                <span className="font-[400] text-[16px] leading-[20.99px] text-grey group-hover:text-white ">
                   Nodirbek
                 </span>
               </Link>

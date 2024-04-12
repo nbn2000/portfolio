@@ -35,23 +35,29 @@ const Footer = () => {
               Media
             </span>
             <div className="flex flex-row justify-center items-center gap-[8px]">
-              <Link to="https://github.com/nbn2000">
-                <Github />
+              <Link to="https://github.com/nbn2000" className="group">
+                <Github className="*:fill-[#ABB2BF] group-hover:*:fill-white" />
               </Link>
-              <Link to="https://www.linkedin.com/in/nodirbek-makhmudov/">
-                <Linkedin />
+              <Link
+                to="https://www.linkedin.com/in/nodirbek-makhmudov/"
+                className="group"
+              >
+                <Linkedin className="*:fill-[#ABB2BF] group-hover:*:fill-white" />
               </Link>
-              <Link to="https://wa.me/998993764744">
-                <Whatsapp />
+              <Link to="https://wa.me/998993764744" className="group">
+                <Whatsapp className="*:fill-[#ABB2BF] group-hover:*:fill-white" />
               </Link>
-              <Link to="https://twitter.com/Nodirbe77981460">
-                <Twitter />
+              <Link to="https://twitter.com/Nodirbe77981460" className="group">
+                <Twitter className="*:fill-[#ABB2BF] group-hover:*:fill-white" />
               </Link>
-              <Link to="https://t.me/Nodirbek4744">
-                <Telegram />
+              <Link to="https://t.me/Nodirbek4744" className="group">
+                <Telegram className="*:fill-[#ABB2BF] group-hover:*:fill-white" />
               </Link>
-              <Link to="https://nodibek-makhmudov.hashnode.dev/">
-                <Hashnode />
+              <Link
+                to="https://nodibek-makhmudov.hashnode.dev/"
+                className="group"
+              >
+                <Hashnode className="*:fill-[#ABB2BF] group-hover:*:fill-white" />
               </Link>
             </div>
           </div>
