@@ -23,7 +23,7 @@ const Projects = () => {
             </h3>
             <div className="w-full lg:w-[511px] h-[1px] bg-[rgba(199,120,221,1)]" />
           </div>
-          <Link className="font-[500] text-[16px] leading-[20.99px]">
+          <Link to="/works" className="font-[500] text-[16px] leading-[20.99px]">
             View all ~~&gt;
           </Link>
         </div>
