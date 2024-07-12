@@ -56,34 +56,3 @@ function App() {
 }
 
 export default App;
-
-// <!-- <meta
-// name="description"
-// content="Welcome to the portfolio of Nodirbek Makhmudov, a skilled front-end developer passionate about crafting beautiful and functional web experiences. Explore my projects and skills here."
-// /> -->
-// <meta
-// name="keywords"
-// content="Nodirbek Makhmudov, front-end developer, web developer, portfolio, HTML, CSS, JavaScript, React, projects, Nextjs, Full Stack"
-// />
-// <meta name="author" content="Nodirbek Makhmudov" />
-// <meta
-// property="og:title"
-// content="Nodirbek Makhmudov - Front-End Developer Portfolio"
-// />
-// <!-- <meta
-// property="og:description"
-// content="Welcome to the portfolio of Nodirbek Makhmudov, a skilled front-end developer passionate about crafting beautiful and functional web experiences. Explore my projects and skills here."
-// /> -->
-// <meta property="og:type" content="website" />
-// <meta property="og:url" content="https://makhmudov-nodirbek.vercel.app" />
-// <meta property="og:image" content="/public/website-screenshot.png" />
-// <meta name="twitter:card" content="summary_large_image" />
-// <meta
-// name="twitter:title"
-// content="Nodirbek Makhmudov - Front-End Developer Portfolio"
-// />
-// <!-- <meta
-// name="twitter:description"
-// content="Welcome to the portfolio of Nodirbek Makhmudov, a skilled front-end developer passionate about crafting beautiful and functional web experiences. Explore my projects and skills here."
-// /> -->
-// <meta name="twitter:image" content="/public/website-screenshot.png" />
