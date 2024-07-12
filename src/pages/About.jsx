@@ -12,7 +12,7 @@ const About = () => {
         />
         <meta
           property="og:description"
-          content="1111Welcome to the portfolio of Nodirbek Makhmudov, a skilled front-end developer passionate about crafting beautiful and functional web experiences. Explore my projects and skills here."
+          content="1111xWelcome to the portfolio of Nodirbek Makhmudov, a skilled front-end developer passionate about crafting beautiful and functional web experiences. Explore my projects and skills here."
         />
       </Helmet>
       <AboutView />
