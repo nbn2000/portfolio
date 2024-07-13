@@ -1,9 +1,9 @@
-import { Helmet, HelmetProvider } from "react-helmet-async";
+import { Helmet } from "react-helmet";
 import HomeView from "src/sections/home";
 
 const Home = () => {
   return (
-    <HelmetProvider>
+    <>
       <Helmet>
         <title> Nodirbek | Home </title>
         <meta
@@ -20,7 +20,7 @@ const Home = () => {
         />
       </Helmet>
       <HomeView />
-    </HelmetProvider>
+    </>
   );
 };
 

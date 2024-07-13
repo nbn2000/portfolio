@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import { Helmet, HelmetProvider } from "react-helmet-async";
+import { Helmet } from "react-helmet";
 
 const NotFound = () => {
   return (
-    <HelmetProvider>
+    <>
       <Helmet>
         <title>404 not found</title>
         <meta
@@ -33,7 +33,7 @@ const NotFound = () => {
           go to home
         </Link>
       </div>
-    </HelmetProvider>
+    </>
   );
 };
 
