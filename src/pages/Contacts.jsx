@@ -1,9 +1,9 @@
-import { Helmet } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import ContactsView from "src/sections/contacts";
 
 const Contacts = () => {
   return (
-    <>
+    <HelmetProvider>
       <Helmet>
         <title> Nodirbek | Contacts </title>
         <meta
@@ -20,7 +20,7 @@ const Contacts = () => {
         />
       </Helmet>
       <ContactsView />
-    </>
+    </HelmetProvider>
   );
 };
 

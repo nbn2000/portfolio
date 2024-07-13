@@ -1,9 +1,9 @@
-import { Helmet } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import WorksView from "src/sections/works";
 
 const Works = () => {
   return (
-    <>
+    <HelmetProvider>
       <Helmet>
         <title> Nodirbek | Works </title>
         <meta
@@ -20,7 +20,7 @@ const Works = () => {
         />
       </Helmet>
       <WorksView />
-    </>
+    </HelmetProvider>
   );
 };
 
