@@ -14,6 +14,10 @@ const Works = () => {
           name="twitter:description"
           content="Works Twitter Welcome to the portfolio of Nodirbek Makhmudov, a skilled front-end developer passionate about crafting beautiful and functional web experiences. Explore my projects and skills here."
         />
+        <meta
+          property="og:description"
+          content="Works OG Welcome to the portfolio of Nodirbek Makhmudov, a skilled front-end developer passionate about crafting beautiful and functional web experiences. Explore my projects and skills here."
+        />
       </Helmet>
       <WorksView />
     </>

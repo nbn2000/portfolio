@@ -14,6 +14,10 @@ const NotFound = () => {
           name="twitter:description"
           content="Not Found Twitter Welcome to the portfolio of Nodirbek Makhmudov, a skilled front-end developer passionate about crafting beautiful and functional web experiences. Explore my projects and skills here."
         />
+        <meta
+          property="og:description"
+          content="Not Found OG Welcome to the portfolio of Nodirbek Makhmudov, a skilled front-end developer passionate about crafting beautiful and functional web experiences. Explore my projects and skills here."
+        />
       </Helmet>
       <div className="flex flex-col py-24 justify-center items-center gap-6 w-full h-full container-y-axis container-x-axis">
         <h1 className="font-[800] text-[70px] leading-[90px] tracking-[20px] text-grey">

@@ -14,6 +14,10 @@ const Contacts = () => {
           name="twitter:description"
           content="Contact Twitter Welcome to the portfolio of Nodirbek Makhmudov, a skilled front-end developer passionate about crafting beautiful and functional web experiences. Explore my projects and skills here."
         />
+        <meta
+          property="og:description"
+          content="Contact OG Welcome to the portfolio of Nodirbek Makhmudov, a skilled front-end developer passionate about crafting beautiful and functional web experiences. Explore my projects and skills here."
+        />
       </Helmet>
       <ContactsView />
     </>
