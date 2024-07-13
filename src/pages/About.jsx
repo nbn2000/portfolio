@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet";
 import AboutView from "src/sections/about";
 
 const About = () => {
