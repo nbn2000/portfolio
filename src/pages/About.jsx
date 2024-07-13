@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import AboutView from "src/sections/about";
 
 const About = () => {
@@ -8,7 +8,7 @@ const About = () => {
         <title> Nodirbek | About </title>
         <meta
           name="description"
-          content="1111Welcome to the portfolio of Nodirbek Makhmudov, a skilled front-end developer passionate about crafting beautiful and functional web experiences. Explore my projects and skills here."
+          content="About Welcome to the portfolio of Nodirbek Makhmudov, a skilled front-end developer passionate about crafting beautiful and functional web experiences. Explore my projects and skills here."
         />
       </Helmet>
       <AboutView />

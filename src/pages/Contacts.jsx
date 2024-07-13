@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import ContactsView from "src/sections/contacts";
 
 const Contacts = () => {
@@ -6,6 +6,10 @@ const Contacts = () => {
     <>
       <Helmet>
         <title> Nodirbek | Contacts </title>
+        <meta
+          name="description"
+          content="Contact Welcome to the portfolio of Nodirbek Makhmudov, a skilled front-end developer passionate about crafting beautiful and functional web experiences. Explore my projects and skills here."
+        />
       </Helmet>
       <ContactsView />
     </>
