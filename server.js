@@ -8,14 +8,14 @@ const PORT = 5000;
 // Define __dirname
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const filePath = path.resolve(__dirname, "./dist", "index.html");
+const filePath = path.resolve(__dirname, "dist", "index.html");
 
 const app = express();
 
 app.get("/", (req, res) => {
   fs.readFile(filePath, "utf8", (err, data) => {
     if (err) {
-      return console.log(err);
+      return console.error(err);
     }
 
     data = data
@@ -35,7 +35,7 @@ app.get("/", (req, res) => {
 app.get("/about", (req, res) => {
   fs.readFile(filePath, "utf8", (err, data) => {
     if (err) {
-      return console.log(err);
+      return console.error(err);
     }
 
     data = data
@@ -46,7 +46,7 @@ app.get("/about", (req, res) => {
   });
 });
 
-app.use(express.static(path.resolve(__dirname, "./dist")));
+app.use(express.static(path.resolve(__dirname, "dist")));
 
 app.listen(PORT, () => {
   console.log(`Server is listening on port ${PORT}`);
