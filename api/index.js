@@ -3,24 +3,20 @@ import path from "path";
 import fs from "fs";
 import { fileURLToPath } from "url";
 
-// Define __dirname
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const filePath = path.resolve(__dirname, "../dist", "index.html");
 
 const app = express();
 
-// Serve static files from the dist directory
 app.use(express.static(path.resolve(__dirname, "../dist")));
 
-// Handle root route and modify meta tags
 app.get("/", (req, res) => {
   fs.readFile(filePath, "utf8", (err, data) => {
     if (err) {
       return console.error(err);
     }
 
-    // Replace placeholders with actual values
     data = data
       .replace(
         /__TITLE__/g,
@@ -35,14 +31,12 @@ app.get("/", (req, res) => {
   });
 });
 
-// Handle about route and modify meta tags
 app.get("/about", (req, res) => {
   fs.readFile(filePath, "utf8", (err, data) => {
     if (err) {
       return console.error(err);
     }
 
-    // Replace placeholders with actual values
     data = data
       .replace(/__TITLE__/g, "About Page")
       .replace(/__DESCRIPTION__/g, "About page description.");
@@ -51,14 +45,12 @@ app.get("/about", (req, res) => {
   });
 });
 
-// Fallback to handle all other routes
 app.get("*", (req, res) => {
   fs.readFile(filePath, "utf8", (err, data) => {
     if (err) {
       return console.error(err);
     }
 
-    // Replace placeholders with default values
     data = data
       .replace(
         /__TITLE__/g,
