@@ -12,12 +12,17 @@ const filePath = path.resolve(__dirname, "dist", "index.html");
 
 const app = express();
 
+// Serve static files from the dist directory
+app.use(express.static(path.resolve(__dirname, "dist")));
+
+// Handle root route and modify meta tags
 app.get("/", (req, res) => {
   fs.readFile(filePath, "utf8", (err, data) => {
     if (err) {
       return console.error(err);
     }
 
+    // Replace placeholders with actual values
     data = data
       .replace(
         /__TITLE__/g,
@@ -32,12 +37,14 @@ app.get("/", (req, res) => {
   });
 });
 
+// Handle about route and modify meta tags
 app.get("/about", (req, res) => {
   fs.readFile(filePath, "utf8", (err, data) => {
     if (err) {
       return console.error(err);
     }
 
+    // Replace placeholders with actual values
     data = data
       .replace(/__TITLE__/g, "About Page")
       .replace(/__DESCRIPTION__/g, "About page description.");
@@ -46,8 +53,7 @@ app.get("/about", (req, res) => {
   });
 });
 
-app.use(express.static(path.resolve(__dirname, "dist")));
-
+// Start the server
 app.listen(PORT, () => {
   console.log(`Server is listening on port ${PORT}`);
 });
