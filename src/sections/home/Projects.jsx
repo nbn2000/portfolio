@@ -23,10 +23,20 @@ const Projects = () => {
             </h3>
             <div className="w-full lg:w-[511px] h-[1px] bg-[rgba(199,120,221,1)]" />
           </div>
-          <Link to="/works" className="font-[500] text-[16px] leading-[20.99px]">
+          <Link
+            to="/works"
+            className="font-[500] text-[16px] leading-[20.99px]"
+          >
             View all ~~&gt;
           </Link>
         </div>
+        <span className="font-[400] text-[16px] leading-[26px] text-grey">
+          As a full-stack developer, my recent work has focused on building and
+          scaling applications for companies. While my personal projects are
+          from a few years ago, they represent the foundation of my skills and
+          growth. If you&apos;re interested in seeing my past work or discussing
+          my more recent projects, feel free to reach out.
+        </span>
         <Cards array={homeProjects} />
       </div>
       <div className="absolute right-0 top-[60%] xl:block hidden">

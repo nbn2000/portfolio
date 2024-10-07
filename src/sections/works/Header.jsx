@@ -10,6 +10,13 @@ const Header = () => {
       <span className="font-[400] text-[16px] leading-[20.99px]">
         List of my projects
       </span>
+      <span className="font-[400] text-[16px] leading-[26px] text-grey">
+        As a full-stack developer, my recent work has focused on building and
+        scaling applications for companies. While my personal projects are from
+        a few years ago, they represent the foundation of my skills and growth.
+        If you&apos;re interested in seeing my past work or discussing my more
+        recent projects, feel free to reach out.
+      </span>
     </header>
   );
 };
