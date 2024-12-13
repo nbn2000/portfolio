@@ -28,8 +28,8 @@ const AboutMe = () => {
             <p className="font-[400] text-[16px] leading-[26px] text-grey">
               I’m a Frontend Developer building the Front-end of Websites and
               Web Applications that leads to the success of the overall product
-              and sometimes I build backend of websites too. Check out some of
-              my work in the Projects section.
+              and sometimes I build backend of websites too. If you would like
+              to see my works please let me know!
             </p>
             <p className="font-[400] text-[16px] leading-[26px] text-grey">
               I also like sharing content related to the stuff that I have

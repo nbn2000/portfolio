@@ -1,7 +1,7 @@
 import AboutMe from "./AboutMe";
 import Contacts from "./Contacts";
 import Header from "./Header";
-import Projects from "./Projects";
+// import Projects from "./Projects";
 import Quote from "./Quote";
 import Skills from "./Skills";
 
@@ -10,7 +10,7 @@ const HomeView = () => {
     <>
       <Header />
       <Quote />
-      <Projects />
+      {/* <Projects /> */}
       <Skills />
       <AboutMe />
       <Contacts />

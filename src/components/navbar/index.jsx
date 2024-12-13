@@ -119,7 +119,7 @@ const Navbar = () => {
 
 const array = [
   { link: "/", name: "home" },
-  { link: "/works", name: "works" },
+  // { link: "/works", name: "works" },
   { link: "/about", name: "about-me" },
   { link: "/contacts", name: "contacts" },
 ];

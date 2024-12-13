@@ -117,7 +117,7 @@ export const skills = [
   },
   {
     header: "Databases",
-    body: ["MongoDB,", "Firebase,", "MySQL"],
+    body: ["MongoDB,", "Firebase,", "MySQL,", "PostgreSQL"],
   },
   {
     header: "Tools",
@@ -135,7 +135,16 @@ export const skills = [
   },
   {
     header: "Frameworks",
-    body: ["Tailwind CSS,", "Expressjs,", "Nextjs,", "Bootstrap"],
+    body: [
+      "Tailwind CSS,",
+      "Expressjs,",
+      "Nextjs,",
+      "Bootstrap,",
+      "Nuxt,",
+      "Vuejs,",
+      "React Native,",
+      "Expo",
+    ],
   },
   {
     header: "Libraries",
@@ -146,12 +155,13 @@ export const skills = [
       "MaterialUI,",
       "Styled Components,",
       "Emotion,",
+      "Gsap,",
       "NPM,",
       "Tailwind Styled Components...",
     ],
   },
   {
     header: "Other",
-    body: ["HTML,", "CSS,", "SCSS,", "REST"],
+    body: ["HTML,", "CSS,", "SCSS,", "REST,", "Wordpress,", "Tilda"],
   },
 ];
