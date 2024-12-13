@@ -1,4 +1,5 @@
 import SkillContainer from "src/components/SkillContainer";
+import { skills } from "src/constants";
 
 const Skills = () => {
   return (
@@ -13,7 +14,7 @@ const Skills = () => {
           </h3>
         </div>
         <div className="w-full flex flex-row flex-wrap lg:flex-nowrap justify-center md:justify-end items-center md:items-start gap-[16px]">
-          {array.map((i, idx) => (
+          {skills.map((i, idx) => (
             <SkillContainer header={i.header} body={i.body} key={idx} />
           ))}
         </div>
@@ -29,50 +30,50 @@ const Skills = () => {
   );
 };
 
-const array = [
-  {
-    header: "Languages",
-    body: ["TypeScript,", "JavaScript"],
-  },
-  {
-    header: "Databases",
-    body: ["MongoDB,", "Firebase,", "MySQL"],
-  },
-  {
-    header: "Tools",
-    body: [
-      "VSCode,",
-      "WebStorm,",
-      "Kali Linux,",
-      "Windows,",
-      "Figma,",
-      "Git,",
-      "Github,",
-      "GitLab,",
-      "Jira,",
-    ],
-  },
-  {
-    header: "Frameworks",
-    body: ["Tailwind CSS,", "Expressjs,", "Nextjs,", "Bootstrap"],
-  },
-  {
-    header: "Libraries",
-    body: [
-      "React,",
-      "RTK Query,",
-      "Redux,",
-      "MaterialUI,",
-      "Styled Components,",
-      "Emotion,",
-      "NPM,",
-      "Tailwind Styled Components...",
-    ],
-  },
-  {
-    header: "Other",
-    body: ["HTML,", "CSS,", "SCSS,", "REST"],
-  },
-];
+// const array = [
+//   {
+//     header: "Languages",
+//     body: ["TypeScript,", "JavaScript"],
+//   },
+//   {
+//     header: "Databases",
+//     body: ["MongoDB,", "Firebase,", "MySQL"],
+//   },
+//   {
+//     header: "Tools",
+//     body: [
+//       "VSCode,",
+//       "WebStorm,",
+//       "Kali Linux,",
+//       "Windows,",
+//       "Figma,",
+//       "Git,",
+//       "Github,",
+//       "GitLab,",
+//       "Jira,",
+//     ],
+//   },
+//   {
+//     header: "Frameworks",
+//     body: ["Tailwind CSS,", "Expressjs,", "Nextjs,", "Bootstrap"],
+//   },
+//   {
+//     header: "Libraries",
+//     body: [
+//       "React,",
+//       "RTK Query,",
+//       "Redux,",
+//       "MaterialUI,",
+//       "Styled Components,",
+//       "Emotion,",
+//       "NPM,",
+//       "Tailwind Styled Components...",
+//     ],
+//   },
+//   {
+//     header: "Other",
+//     body: ["HTML,", "CSS,", "SCSS,", "REST"],
+//   },
+// ];
 
 export default Skills;

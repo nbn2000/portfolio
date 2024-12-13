@@ -3,9 +3,10 @@ import { useState } from "react";
 import { WhiteLogo, Github, Linkedin, Twitter } from "src/svg/view";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+
   const location = useLocation();
   return (
-    <div className="relative">
+    <div className="relative" onClick={() => setOpen(false)}>
       <div className="hidden absolute z-50 md:flex flex-col justify-center items-center gap-[8px] left-2 top-0 pointer-events-none md:pointer-events-auto">
         <hr className="h-[191px] w-[1px] bg-grey text-grey" />
         <Link to="https://github.com/nbn2000" className="group" target="_blank">
@@ -39,7 +40,10 @@ const Navbar = () => {
         <div>
           <button
             className="w-14 h-14 relative md:hidden "
-            onClick={() => setOpen(!open)}
+            onClick={(e) => {
+              e.stopPropagation();
+              setOpen(!open);
+            }}
           >
             <div className="block w-5 absolute left-6 top-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
               <span
